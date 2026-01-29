@@ -10,6 +10,9 @@
 .idea/
 *.code-workspace
 
+# Embedded git repositories
+**/.git
+
 # OS generated
 .DS_Store
 Thumbs.db

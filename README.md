@@ -1,34 +1,34 @@
-# Dotfiles
+# Dotfiles 📁
 
-My personal dotfiles for Linux configuration.
+My personal dotfiles for Linux configuration. 🐧
 
-## Included Configurations
+## Included Configurations ⚙️
 
-### Window Manager / Desktop
-- Hyprland (hypr/)
-- Waybar (waybar/)
-- SwayNC (swaync/)
+### Window Manager / Desktop 🖥️
+- 🪟 Hyprland (hypr/)
+- 📊 Waybar (waybar/)
+- 🔔 SwayNC (swaync/)
 
-### Terminal
-- Alacritty (alacritty/)
-- Zellij (zellij/)
-- Zsh (.zsh, .zshrc, .p10k.zsh)
+### Terminal 💻
+- 🖥️ Alacritty (alacritty/)
+- 🧩 Zellij (zellij/)
+- 🐚 Zsh (.zsh, .zshrc, .p10k.zsh)
 
-### Editors
-- Helix (helix/)
+### Editors ✏️
+- 📝 Helix (helix/)
 
-### Media
-- MPV (mpv/)
+### Media 🎬
+- 🎵 MPV (mpv/)
 
-### Utilities
-- FastFetch (fastfetch/)
-- CAVA (cava/)
+### Utilities 🛠️
+- ℹ️ FastFetch (fastfetch/)
+- 🔊 CAVA (cava/)
 
-## Installation
+## Installation 🛠️
 
 These dotfiles are meant to be symlinked to their respective locations.
 
-### Quick setup script (optional)
+### Quick setup script (optional) 🖥️
 
 ```bash
 #!/bin/bash
@@ -43,11 +43,11 @@ ln -sfn ~/dotfiles/home/.zshrc ~/.zshrc
 ln -sfn ~/dotfiles/home/.p10k.zsh ~/.p10k.zsh
 ```
 
-## Notes
+## Notes 📝
 
 - This repository is personal and may contain custom configurations.
 - Feel free to fork and adapt to your own needs.
 
-## License
+## License ⚖️
 
-MIT
+GNU General Public License v3.0
