@@ -2,6 +2,12 @@
 
 My personal dotfiles for Linux configuration. 🐧
 
+## About Omarchy 🐧
+
+These dotfiles are configured for [Omarchy](https://omarchy.org/), a Linux distribution.
+- **Homepage**: https://omarchy.org/
+- **GitHub**: https://github.com/basecamp/omarchy
+
 <video controls src="Video.webm" type="video/webm" style="max-width: 100%;"></video>
 
 ![Nvim](nvim.jpg)
@@ -31,7 +37,7 @@ My personal dotfiles for Linux configuration. 🐧
 
 ## Installation 🛠️
 
-These dotfiles are meant to be symlinked to their respective locations.
+These dotfiles are configured for Omarchy Linux and are meant to be symlinked to their respective locations.
 
 ### Quick setup script (optional) 🖥️
 
@@ -51,6 +57,7 @@ ln -sfn ~/dotfiles/home/.p10k.zsh ~/.p10k.zsh
 ## Notes 📝
 
 - This repository is personal and may contain custom configurations.
+- These dotfiles are optimized for Omarchy Linux but may work on other distributions with adjustments.
 - Feel free to fork and adapt to your own needs.
 
 ## License ⚖️
