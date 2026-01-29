@@ -2,6 +2,11 @@
 
 My personal dotfiles for Linux configuration. 🐧
 
+<video controls src="Video.webm" type="video/webm" style="max-width: 100%;"></video>
+
+![Nvim](nvim.jpg)
+
+
 ## Included Configurations ⚙️
 
 ### Window Manager / Desktop 🖥️
