@@ -1,0 +1,28 @@
+# Temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# IDE specific
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*.old
+*.orig
+
+# Ignore any personal secrets
+secrets/
+.env
+*.secret
+*.key
