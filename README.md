@@ -11,9 +11,8 @@ These dotfiles are configured for [Omarchy](https://omarchy.org/), a Linux distr
 ## Media 🎥
 
 ### Video Demo
-<div align="center">
+
 https://github.com/user-attachments/assets/aebfe9c4-24d4-4125-ab3a-b4607d159b8d
-</div>
 
 ### Screenshots
 <div align="center">
