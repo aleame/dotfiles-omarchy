@@ -8,10 +8,30 @@ These dotfiles are configured for [Omarchy](https://omarchy.org/), a Linux distr
 - **Homepage**: https://omarchy.org/
 - **GitHub**: https://github.com/basecamp/omarchy
 
-<video controls src="Video.webm" type="video/webm" style="max-width: 100%;"></video>
+## Media 🎥
 
-![Nvim](nvim.jpg)
+### Video Demo
+<div align="center">
+<video width="800" controls>
+  <source src="Video.webm" type="video/webm">
+  <source src="Video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
 
+### Screenshots
+<div align="center">
+<table>
+  <tr>
+    <td><img src="Desk01.jpg" width="500" alt="Desk 1"></td>
+    <td><img src="Desk02.jpg" width="500" alt="Desk 2"></td>
+  </tr>
+  <tr>
+    <td><img src="Desk03.jpg" width="500" alt="Desk 3"></td>
+    <td><img src="Desk04.jpg" width="500" alt="Desk 4"></td>
+  </tr>
+</table>
+</div>
 
 ## Included Configurations ⚙️
 
@@ -28,7 +48,7 @@ These dotfiles are configured for [Omarchy](https://omarchy.org/), a Linux distr
 ### Editors ✏️
 - 📝 Helix (helix/)
 
-### Media 🎬
+### Media Player 🎬
 - 🎵 MPV (mpv/)
 
 ### Utilities 🛠️
