@@ -13,9 +13,9 @@ These dotfiles are configured for [Omarchy](https://omarchy.org/), a Linux distr
 ### Video Demo
 <div align="center">
 <video width="800" controls>
-  <source src="Video.webm" type="video/webm">
-  <source src="Video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="https://raw.githubusercontent.com/aleame/dotfiles-omarchy/main/Video.webm" type="video/webm">
+  <source src="https://raw.githubusercontent.com/aleame/dotfiles-omarchy/main/Video.mp4" type="video/mp4">
+  Your browser does not support the video tag. You can download the video: [Video.webm](https://raw.githubusercontent.com/aleame/dotfiles-omarchy/main/Video.webm) or [Video.mp4](https://raw.githubusercontent.com/aleame/dotfiles-omarchy/main/Video.mp4).
 </video>
 </div>
 
