@@ -15,10 +15,6 @@ These dotfiles are configured for [Omarchy](https://omarchy.org/), a Linux distr
 https://github.com/user-attachments/assets/aebfe9c4-24d4-4125-ab3a-b4607d159b8d
 
 ### Screenshots
-![Desk04](https://github.com/user-attachments/assets/4ce9708a-7c77-4629-96e0-24c65457886c)
-![Desk03](https://github.com/user-attachments/assets/72e77c25-c245-4970-aae4-1c3cbca64b2a)
-![Desk02](https://github.com/user-attachments/assets/870ab8ac-e91a-4e14-b71a-45ca058dc33e)
-![Desk01](https://github.com/user-attachments/assets/f47e8da4-faa8-40e4-a65d-ab6d3d3f94e6)
 <div align="center">
 <table>
   <tr>
