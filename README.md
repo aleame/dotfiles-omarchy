@@ -1,6 +1,6 @@
 # Dotfiles 📁
 
-My personal dotfiles for Linux configuration. 🐧
+My personal dotfiles for my Omarchy Linux configuration. 🐧
 
 ## About Omarchy 🐧
 
@@ -49,6 +49,17 @@ https://github.com/user-attachments/assets/aebfe9c4-24d4-4125-ab3a-b4607d159b8d
 ### Utilities 🛠️
 - ℹ️ FastFetch (fastfetch/)
 - 🔊 CAVA (cava/)
+
+## The .local Folder 📁
+
+The `.local` folder is a standard directory in Linux for user-specific application data and scripts.
+
+### Recommendations
+- **`.local/bin`**: This is the best place to store your personal scripts. By adding this directory to your `PATH`, you can run your scripts as commands from anywhere.
+- **`.local/share`**: This directory is used for application data. For example, Omarchy stores its default configurations here (`.local/share/omarchy`). It's generally best to keep these as they are, but you can reference them for your own customizations.
+
+> [!TIP]
+> To add `.local/bin` to your `PATH`, add `export PATH="$HOME/.local/bin:$PATH"` to your `.zshrc`.
 
 ## Installation 🛠️
 
