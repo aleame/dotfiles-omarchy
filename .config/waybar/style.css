@@ -2,7 +2,7 @@
 * {
   all: unset;
   min-height: 0;
-  font-family: "CaskaydiaMono Nerd Font Mono";
+  font-family: 'CaskaydiaCove Nerd Font Mono';
   font-size: 13px;
   font-weight: 500;
 }
@@ -147,14 +147,12 @@ window#waybar {
 }
 
 /* Screenrecording Indicator */
-#custom-screenrecording-indicator {
-  color: @background;
+  /* color: @background;
   background: @red;
   border-radius: 4px;
   padding: 0 6px;
+  font-weight: bold; */
   /* margin: 0 4px; */
-  font-weight: bold;
-}
 
 /* Tray */
 #tray {
@@ -235,7 +233,7 @@ tooltip * {
 #custom-cava {
   color: @blue;
   padding: 0 8px;
-  font-family: "CaskaydiaMono Nerd Font Mono";
+  font-family: 'CaskaydiaCove Nerd Font Mono';
   font-size: 11px;
   letter-spacing: 1px;
   background: linear-gradient(90deg, rgba(122, 162, 247, 0.1), rgba(187, 154, 247, 0.1));
@@ -249,5 +247,10 @@ tooltip * {
 }
 
 #custom-voxtype.recording {
+  color: #a55555;
+}
+
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active {
   color: #a55555;
 }

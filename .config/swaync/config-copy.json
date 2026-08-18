@@ -101,6 +101,13 @@
           "update-command": "sh -c 'set +e;pactl get-source-mute @DEFAULT_SOURCE@ | grep -q \"no\" && echo true || echo false'"
         },
         {
+          "label": "",
+          "type": "toggle",
+          "active": true,
+          "command": "sh -c 'swaync-client -d -sw'",
+          "update-command": "sh -c 'set +e;swaync-client -D'"
+        },
+        {
           "label": "",
           "command": "flatpak run io.github.seadve.Kooha"
         }

@@ -14,9 +14,9 @@ startup_mode = "Maximized"
 #background_opacity = 0.60
 
 [font]
-normal = { family = "CaskaydiaMono Nerd Font Mono" }
-bold = { family = "CaskaydiaMono Nerd Font Mono" }
-italic = { family = "CaskaydiaMono Nerd Font Mono" }
+normal = { family = "CaskaydiaCove Nerd Font Mono" }
+bold = { family = "CaskaydiaCove Nerd Font Mono" }
+italic = { family = "CaskaydiaCove Nerd Font Mono" }
 size = 11
 offset = { x = 1, y = 1 }
 
@@ -37,6 +37,7 @@ save_to_clipboard = true
 
 [general]
 import = ["~/.config/alacritty/themes/thelovelace_edit.toml"]
+#import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 [terminal.shell]
 program = "/usr/bin/zsh"
@@ -72,3 +73,6 @@ action = "ScrollToBottom"
 key = "End"
 mode = "~Alt"
 mods = "Shift"
+
+[terminal]
+osc52 = "CopyPaste"

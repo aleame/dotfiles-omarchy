@@ -125,7 +125,6 @@
     "format": "{}°",
     "tooltip": true,
     "on-click": "gnome-weather",
-    "on-click-right": "io.github.amit9838.mousam",
     "interval": 600,
     "return-type": "json"
   },
@@ -141,7 +140,7 @@
     "format-wifi": "{icon}",
     "format-ethernet": "🌐",
     "format-disconnected": "🌐❗",
-    "tooltip-format-wifi": "{essid} ({frequency} GHz)",
+    "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "{ifname}\n{ipaddr}/{cidr}\n⬇️{bandwidthDownBytes} ⬆️{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
     "on-click-right": "nm-connection-editor",
@@ -166,7 +165,6 @@
     "format-muted": "🔇 0%",
     "format-icons": {
       "headphone": "🎧",
-      "headset": "",
       "default": [
         "🔈",
         "🔉",
@@ -190,7 +188,7 @@
     "tooltip": false
   },
   "custom/screenrecording-indicator": {
-    "on-click": "omarchy-capture-screenrecording",
+    "on-click": "omarchy-cmd-screenrecord",
     "exec": "$OMARCHY_PATH/default/waybar/indicators/screen-recording.sh",
     "signal": 8,
     "return-type": "json"
@@ -207,18 +205,6 @@
     "tooltip": true,
     "on-click-right": "omarchy-voxtype-config",
     "on-click": "omarchy-voxtype-model"
-  },
-  "custom/idle-indicator": {
-    "on-click": "omarchy-toggle-idle",
-    "exec": "$OMARCHY_PATH/default/waybar/indicators/idle.sh",
-    "signal": 9,
-    "return-type": "json"
-  },
-  "custom/notification-silencing-indicator": {
-    "on-click": "omarchy-toggle-notification-silencing",
-    "exec": "$OMARCHY_PATH/default/waybar/indicators/notification-silencing.sh",
-    "signal": 10,
-    "return-type": "json"
   },
   "tray": {
     "icon-size": 20,
